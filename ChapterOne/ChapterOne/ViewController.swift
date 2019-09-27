@@ -23,10 +23,9 @@ class ViewController: UIViewController, CALayerDelegate {
         super.viewDidLoad()
         
 //        ios赋值不是CGImage，得到的图层会空白mac os上CGImage&NSImage类型的值都起作用
-        
 //        let image = UIImage(named: "snow.jpeg");
 //        self.layerView.layer.contents = image?.cgImage;
-        //等同于view的contentMode, 设置内容在图层的边界中怎么对其
+//        等同于view的contentMode, 设置内容在图层的边界中怎么对其
 //        self.layerView.layer.contentsGravity = CALayerContentsGravity.resizeAspect;
         
     //与UIImage不同，CGImage没有拉伸的概念，用UIImage读取图片时，当把layer的contentsGravity值设置为center时，它读取了Retina版本的图片，CGImage设置图层内容是，拉伸这个元素在转换时丢失了，可以通过手动设置contentsScale来修复
