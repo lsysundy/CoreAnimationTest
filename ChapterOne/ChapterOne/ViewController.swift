@@ -54,7 +54,7 @@ class ViewController: UIViewController, CALayerDelegate {
         self.addSpriteImage(image: image1, rect: CGRect(x: 0.25, y: 0.25, width: 0.5, height: 0.5), layer: self.button2.layer);
         
         
-        //core Graphics 绘制寄存图
+        //Core Graphics 绘制寄存图
         let blueLayer = CALayer();
         blueLayer.frame = CGRect(x: 50.0, y: 50.0, width: 100.0, height: 100.0);
         blueLayer.backgroundColor = UIColor.blue.cgColor;
@@ -62,7 +62,12 @@ class ViewController: UIViewController, CALayerDelegate {
         blueLayer.contentsScale = UIScreen.main.scale;
         self.layerView.layer.addSublayer(blueLayer);
 
+        //layer上调用display不同于view上，当图层显示在屏幕上是，CALayer不会自动重绘内容
+        //CALayerDelegate绘制寄存图时，不会对超出界外的内容提供绘制
         blueLayer.display();
+        
+        //当UIView创建寄主图层时，会自动的把图层代理设置为view自己，并提供-displayLayer:的实现，所以我们几乎没机会用到CALayerDelegate
+        //当d使用寄宿了视图的图层是，不必实现-displayLayer:，通常实现UIView的-drawRect: UIView会完成剩下的工作，包括在需要重绘时调用-display:
         
         
     }
@@ -75,8 +80,12 @@ class ViewController: UIViewController, CALayerDelegate {
         
     }
     
+    //CALayerDelegate
     func draw(_ layer: CALayer, in ctx: CGContext) {
-//        CGContext.setLineWidth(<#T##self: CGContext##CGContext#>)
+        ctx.setLineWidth(10.0);
+        ctx.setStrokeColor(UIColor.red.cgColor);
+        ctx.strokeEllipse(in: layer.bounds);
+        
     }
     
     
