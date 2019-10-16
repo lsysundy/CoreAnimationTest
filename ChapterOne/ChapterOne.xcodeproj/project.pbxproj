@@ -19,7 +19,7 @@
 		528765C0233DF1FB002FBE9C /* zPositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528765BF233DF1FB002FBE9C /* zPositionViewController.swift */; };
 		528765C22340877D002FBE9C /* jcy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 528765C12340877C002FBE9C /* jcy.jpg */; };
 		528765C4234087AB002FBE9C /* TransformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528765C3234087AB002FBE9C /* TransformViewController.swift */; };
-		52975B1C23545223007E809C /* CubicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52975B1B23545223007E809C /* CubicViewController.swift */; };
+		52975B1C23545223007E809C /* ShapeLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52975B1B23545223007E809C /* ShapeLayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		528765BF233DF1FB002FBE9C /* zPositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zPositionViewController.swift; sourceTree = "<group>"; };
 		528765C12340877C002FBE9C /* jcy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jcy.jpg; sourceTree = "<group>"; };
 		528765C3234087AB002FBE9C /* TransformViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformViewController.swift; sourceTree = "<group>"; };
-		52975B1B23545223007E809C /* CubicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubicViewController.swift; sourceTree = "<group>"; };
+		52975B1B23545223007E809C /* ShapeLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeLayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 				528765BD233DBBB8002FBE9C /* ClockViewController.swift */,
 				528765BF233DF1FB002FBE9C /* zPositionViewController.swift */,
 				528765C3234087AB002FBE9C /* TransformViewController.swift */,
-				52975B1B23545223007E809C /* CubicViewController.swift */,
+				52975B1B23545223007E809C /* ShapeLayerViewController.swift */,
 				528765A8233C9343002FBE9C /* Main.storyboard */,
 				528765AB233C9347002FBE9C /* Assets.xcassets */,
 				528765AD233C9347002FBE9C /* LaunchScreen.storyboard */,
@@ -173,7 +173,7 @@
 				528765C0233DF1FB002FBE9C /* zPositionViewController.swift in Sources */,
 				528765A7233C9343002FBE9C /* ViewController.swift in Sources */,
 				528765A3233C9343002FBE9C /* AppDelegate.swift in Sources */,
-				52975B1C23545223007E809C /* CubicViewController.swift in Sources */,
+				52975B1C23545223007E809C /* ShapeLayerViewController.swift in Sources */,
 				528765C4234087AB002FBE9C /* TransformViewController.swift in Sources */,
 				528765A5233C9343002FBE9C /* SceneDelegate.swift in Sources */,
 				528765BE233DBBB8002FBE9C /* ClockViewController.swift in Sources */,
