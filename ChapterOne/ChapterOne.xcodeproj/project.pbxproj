@@ -19,6 +19,7 @@
 		528765C0233DF1FB002FBE9C /* zPositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528765BF233DF1FB002FBE9C /* zPositionViewController.swift */; };
 		528765C22340877D002FBE9C /* jcy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 528765C12340877C002FBE9C /* jcy.jpg */; };
 		528765C4234087AB002FBE9C /* TransformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528765C3234087AB002FBE9C /* TransformViewController.swift */; };
+		528818BA23580F7D00D385C5 /* LayerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528818B923580F7D00D385C5 /* LayerLabel.swift */; };
 		52975B1C23545223007E809C /* ShapeLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52975B1B23545223007E809C /* ShapeLayerViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		528765BF233DF1FB002FBE9C /* zPositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zPositionViewController.swift; sourceTree = "<group>"; };
 		528765C12340877C002FBE9C /* jcy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jcy.jpg; sourceTree = "<group>"; };
 		528765C3234087AB002FBE9C /* TransformViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformViewController.swift; sourceTree = "<group>"; };
+		528818B923580F7D00D385C5 /* LayerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerLabel.swift; sourceTree = "<group>"; };
 		52975B1B23545223007E809C /* ShapeLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeLayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 				528765BF233DF1FB002FBE9C /* zPositionViewController.swift */,
 				528765C3234087AB002FBE9C /* TransformViewController.swift */,
 				52975B1B23545223007E809C /* ShapeLayerViewController.swift */,
+				528818B923580F7D00D385C5 /* LayerLabel.swift */,
 				528765A8233C9343002FBE9C /* Main.storyboard */,
 				528765AB233C9347002FBE9C /* Assets.xcassets */,
 				528765AD233C9347002FBE9C /* LaunchScreen.storyboard */,
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528818BA23580F7D00D385C5 /* LayerLabel.swift in Sources */,
 				528765C0233DF1FB002FBE9C /* zPositionViewController.swift in Sources */,
 				528765A7233C9343002FBE9C /* ViewController.swift in Sources */,
 				528765A3233C9343002FBE9C /* AppDelegate.swift in Sources */,

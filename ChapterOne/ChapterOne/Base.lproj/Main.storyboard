@@ -279,7 +279,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IbK-Cw-i0O">
-                                <rect key="frame" x="48" y="193" width="315" height="450"/>
+                                <rect key="frame" x="50" y="51" width="315" height="332"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bc4-dq-8xC">
+                                <rect key="frame" x="87" y="400" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0zi-A4-aJX">
+                                <rect key="frame" x="87" y="548" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
@@ -288,7 +298,9 @@
                         <viewLayoutGuide key="safeArea" id="fwG-2v-T2A"/>
                     </view>
                     <connections>
+                        <outlet property="attributedLabel" destination="0zi-A4-aJX" id="jY4-QT-rOY"/>
                         <outlet property="containerView" destination="IbK-Cw-i0O" id="mSY-6n-AwN"/>
+                        <outlet property="labelView" destination="Bc4-dq-8xC" id="t5P-Jv-Ap8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lCE-yu-Utd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
