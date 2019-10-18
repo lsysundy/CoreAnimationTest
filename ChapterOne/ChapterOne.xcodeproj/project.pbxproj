@@ -21,6 +21,7 @@
 		528765C4234087AB002FBE9C /* TransformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528765C3234087AB002FBE9C /* TransformViewController.swift */; };
 		528818BA23580F7D00D385C5 /* LayerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528818B923580F7D00D385C5 /* LayerLabel.swift */; };
 		528818BC235855B800D385C5 /* TransformLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528818BB235855B800D385C5 /* TransformLayerViewController.swift */; };
+		528818C02359B9F900D385C5 /* OCTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528818BF2359B9F900D385C5 /* OCTransformViewController.m */; };
 		52975B1C23545223007E809C /* ShapeLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52975B1B23545223007E809C /* ShapeLayerViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,9 @@
 		528765C3234087AB002FBE9C /* TransformViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformViewController.swift; sourceTree = "<group>"; };
 		528818B923580F7D00D385C5 /* LayerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerLabel.swift; sourceTree = "<group>"; };
 		528818BB235855B800D385C5 /* TransformLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformLayerViewController.swift; sourceTree = "<group>"; };
+		528818BD2359B9F900D385C5 /* ChapterOne-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChapterOne-Bridging-Header.h"; sourceTree = "<group>"; };
+		528818BE2359B9F900D385C5 /* OCTransformViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTransformViewController.h; sourceTree = "<group>"; };
+		528818BF2359B9F900D385C5 /* OCTransformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTransformViewController.m; sourceTree = "<group>"; };
 		52975B1B23545223007E809C /* ShapeLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeLayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,11 +90,14 @@
 				528765C3234087AB002FBE9C /* TransformViewController.swift */,
 				52975B1B23545223007E809C /* ShapeLayerViewController.swift */,
 				528818BB235855B800D385C5 /* TransformLayerViewController.swift */,
+				528818BE2359B9F900D385C5 /* OCTransformViewController.h */,
+				528818BF2359B9F900D385C5 /* OCTransformViewController.m */,
 				528818B923580F7D00D385C5 /* LayerLabel.swift */,
 				528765A8233C9343002FBE9C /* Main.storyboard */,
 				528765AB233C9347002FBE9C /* Assets.xcassets */,
 				528765AD233C9347002FBE9C /* LaunchScreen.storyboard */,
 				528765B0233C9347002FBE9C /* Info.plist */,
+				528818BD2359B9F900D385C5 /* ChapterOne-Bridging-Header.h */,
 			);
 			path = ChapterOne;
 			sourceTree = "<group>";
@@ -135,6 +142,7 @@
 				TargetAttributes = {
 					5287659E233C9343002FBE9C = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1110;
 					};
 				};
 			};
@@ -177,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				528818BA23580F7D00D385C5 /* LayerLabel.swift in Sources */,
+				528818C02359B9F900D385C5 /* OCTransformViewController.m in Sources */,
 				528765C0233DF1FB002FBE9C /* zPositionViewController.swift in Sources */,
 				528765A7233C9343002FBE9C /* ViewController.swift in Sources */,
 				528765A3233C9343002FBE9C /* AppDelegate.swift in Sources */,
@@ -328,6 +337,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ChapterOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,6 +346,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aa.ChapterOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChapterOne/ChapterOne-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -345,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ChapterOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -353,6 +366,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aa.ChapterOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChapterOne/ChapterOne-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
