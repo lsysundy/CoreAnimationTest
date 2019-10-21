@@ -22,6 +22,7 @@
 		528818BA23580F7D00D385C5 /* LayerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528818B923580F7D00D385C5 /* LayerLabel.swift */; };
 		528818BC235855B800D385C5 /* TransformLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528818BB235855B800D385C5 /* TransformLayerViewController.swift */; };
 		528818C02359B9F900D385C5 /* OCTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528818BF2359B9F900D385C5 /* OCTransformViewController.m */; };
+		528818C2235D9F8300D385C5 /* CACradientLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528818C1235D9F8300D385C5 /* CACradientLayerViewController.swift */; };
 		52975B1C23545223007E809C /* ShapeLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52975B1B23545223007E809C /* ShapeLayerViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		528818BD2359B9F900D385C5 /* ChapterOne-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChapterOne-Bridging-Header.h"; sourceTree = "<group>"; };
 		528818BE2359B9F900D385C5 /* OCTransformViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTransformViewController.h; sourceTree = "<group>"; };
 		528818BF2359B9F900D385C5 /* OCTransformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTransformViewController.m; sourceTree = "<group>"; };
+		528818C1235D9F8300D385C5 /* CACradientLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CACradientLayerViewController.swift; sourceTree = "<group>"; };
 		52975B1B23545223007E809C /* ShapeLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeLayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 				528818BB235855B800D385C5 /* TransformLayerViewController.swift */,
 				528818BE2359B9F900D385C5 /* OCTransformViewController.h */,
 				528818BF2359B9F900D385C5 /* OCTransformViewController.m */,
+				528818C1235D9F8300D385C5 /* CACradientLayerViewController.swift */,
 				528818B923580F7D00D385C5 /* LayerLabel.swift */,
 				528765A8233C9343002FBE9C /* Main.storyboard */,
 				528765AB233C9347002FBE9C /* Assets.xcassets */,
@@ -185,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				528818BA23580F7D00D385C5 /* LayerLabel.swift in Sources */,
+				528818C2235D9F8300D385C5 /* CACradientLayerViewController.swift in Sources */,
 				528818C02359B9F900D385C5 /* OCTransformViewController.m in Sources */,
 				528765C0233DF1FB002FBE9C /* zPositionViewController.swift in Sources */,
 				528765A7233C9343002FBE9C /* ViewController.swift in Sources */,
